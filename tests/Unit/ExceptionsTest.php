@@ -1,9 +1,9 @@
 <?php
 
 use PHPUnit\Framework\TestCase;
-use RapidWeb\BucketTesting\Bucket;
-use RapidWeb\BucketTesting\BucketManager;
-use RapidWeb\BucketTesting\WeightedBucket;
+use DivineOmega\BucketTesting\Bucket;
+use DivineOmega\BucketTesting\BucketManager;
+use DivineOmega\BucketTesting\WeightedBucket;
 
 final class ExceptionsTest extends TestCase
 {

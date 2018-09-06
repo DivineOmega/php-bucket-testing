@@ -1,8 +1,8 @@
 <?php
 
 use PHPUnit\Framework\TestCase;
-use RapidWeb\BucketTesting\Bucket;
-use RapidWeb\BucketTesting\BucketManager;
+use DivineOmega\BucketTesting\Bucket;
+use DivineOmega\BucketTesting\BucketManager;
 
 final class WeightsTest extends TestCase
 {

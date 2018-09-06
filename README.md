@@ -1,8 +1,7 @@
 # PHP Bucket Testing
 
-[![Build Status](https://travis-ci.org/rapidwebltd/php-bucket-testing.svg?branch=master)](https://travis-ci.org/rapidwebltd/php-bucket-testing)
-[![Coverage Status](https://coveralls.io/repos/github/rapidwebltd/php-bucket-testing/badge.svg?branch=master)](https://coveralls.io/github/rapidwebltd/php-bucket-testing?branch=master)
-[![StyleCI](https://styleci.io/repos/85688416/shield?branch=master)](https://styleci.io/repos/85688416)
+[![Build Status](https://travis-ci.org/divineomega/php-bucket-testing.svg?branch=master)](https://travis-ci.org/divineomega/php-bucket-testing)
+[![Coverage Status](https://coveralls.io/repos/github/divineomega/php-bucket-testing/badge.svg?branch=master)](https://coveralls.io/github/divineomega/php-bucket-testing?branch=master)
 
 This library enables developers to easily redirect users to different URLs, for the purpose 
 of bucket testing. Bucket testing is also known as A/B testing or split testing.
@@ -21,7 +20,7 @@ form of conversion.
 ## Installation
 To install, just run the following composer command.
 
-`composer require rapidwebltd/php-bucket-testing`
+`composer require divineomega/php-bucket-testing`
 
 Remember to include the `vendor/autoload.php` file if your framework does not already do so.
 
@@ -29,8 +28,8 @@ Remember to include the `vendor/autoload.php` file if your framework does not al
 
 ```php
 
-use \RapidWeb\BucketTesting\BucketManager;
-use \RapidWeb\BucketTesting\Bucket;
+use \DivineOmega\BucketTesting\BucketManager;
+use \DivineOmega\BucketTesting\Bucket;
 
 // Create a new bucket manager
 $bucketManager = new BucketManager;
